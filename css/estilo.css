@@ -1,0 +1,16 @@
+h1 {
+   
+}
+
+h5 {
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5rem;
+
+}
+
+h5+p {
+    color: black;
+    font-size: 1.2rem;
+}
+
