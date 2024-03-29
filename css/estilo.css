@@ -1,10 +1,4 @@
-/*Título*/
-h1 {
-   
-}
-
-/*Subtítulo*/
-
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@900&display=swap');
 
 ul {
     list-style: none;
@@ -21,7 +15,34 @@ ul {
     z-index: 1; /*pro menu se sobrepor*/
 }
 
+/*Título*/
+h1  {
+    font-family: 'Merienda', cursive;
+    font-size: 4rem;
+    border-bottom: 1px dashed green;
+   
+   
+}
+
+/*Imagem avião antes e depois do título*/
+.img_avião {
+    width: 4rem;
+   
+}
+
+/*Subtítulo*/
+h3 {
+    font-size: 1.8rem;
+}
+
+
+
 /*SLIDE*/
+
+/*Seção: Escolha seu destino / História*/
+h4 {
+    margin-left: 1rem;
+}
 
 /*Nome do local*/
 h5 {
@@ -65,3 +86,21 @@ h5+p {
 }
 
 
+/*HISTÓRIA*/
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Esse trabalho foi feito por Luciene Lima*/
