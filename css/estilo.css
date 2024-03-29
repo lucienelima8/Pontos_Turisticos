@@ -1,16 +1,40 @@
+/*Título*/
 h1 {
    
 }
 
+/*Subtítulo*/
+
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+    gap: 5rem;
+    position: fixed;
+    background-color: #fdf9f9ea;
+    /*background-color: #f7f7c4;*/
+    padding: .6rem;
+    border-radius: 10px;
+
+    z-index: 1; /*pro menu se sobrepor*/
+}
+
+/*Nome do local*/
 h5 {
     color: black;
     font-weight: bolder;
     font-size: 1.5rem;
+    
 
 }
 
+/*Onde fica*/
 h5+p {
     color: black;
     font-size: 1.2rem;
 }
+
+
 
