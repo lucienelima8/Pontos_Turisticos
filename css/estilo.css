@@ -21,20 +21,47 @@ ul {
     z-index: 1; /*pro menu se sobrepor*/
 }
 
+/*SLIDE*/
+
 /*Nome do local*/
 h5 {
-    color: black;
+    color: yellow;
     font-weight: bolder;
-    font-size: 1.5rem;
-    
+    font-size: 1.2rem;
+       
 
 }
 
 /*Onde fica*/
 h5+p {
-    color: black;
-    font-size: 1.2rem;
+    color: yellow;
+    font-size: 1rem;
+    margin-bottom: -1rem;
+
 }
 
+/*Imagens do slide*/
+.img_slide {
+    /*height: 25rem;*/
+    /*width: 100%;*/
+    /*width: auto;*/
+
+}
+
+
+/*DESTINO / CARDS*/
+.container_card {
+
+}
+.card {
+   
+    
+
+}
+
+.img_cards {
+   
+
+}
 
 

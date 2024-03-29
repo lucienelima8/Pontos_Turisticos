@@ -43,7 +43,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link text-primary" href="#localidade">Localidade</a>
+              <a class="nav-link text-primary" href="#destinos">Destinos</a>
             </li>
 
             <li class="nav-item">
@@ -80,15 +80,14 @@
     </nav>
 
 
-
-
     <!-- Título e subtítulo -->
 
-    <h1 class="text-center text-primary">Pontos Turísticos</h1>
+    <h1 class="text-center text-primary mt-5">Pontos Turísticos</h1>
 
-    <h3 class="text-center">Colecione lembranças</h3>
+    <h3 class="text-center mt-3 mb-3">Colecione lembranças</h3>
 
-    <!-- Carrossel -->
+
+    <!-- Carrossel / Slide-->
 
     <div class="container w-50 h-auto">
 
@@ -102,34 +101,34 @@
 
         <!-- Pão de açúcar, Rio de Janeiro, Brasil -->
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="img-fluid rounded mx-auto d-block img-thumbnail" src="imagens/deriva-continental_site.webp" class="d-block w-100" alt="...">
+          <div class="carousel-item active mb-3">
+            <img class="img-fluid rounded mx-auto d-block img-thumbnail img_slide col-12" src="imagens/pao_açúcar.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Pão de açúcar</h5>
               <p>Rio de Janeiro, Brasil.</p>
             </div>
           </div>
 
+          <!-- Ilha de Jeju, na Coreia do Sul. -->
+          <div class="carousel-item mb-3">
+            <img class="img-fluid rounded mx-auto d-block img-thumbnail img_slide col-12" src="imagens/Jeju.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Ilha de Jeju</h5>
+              <p>Coreia do Sul.</p>
+            </div>
+          </div>
+
           <!-- Píer de Iseltwald, Lago de Brienz, na Suíça -->
-          <div class="carousel-item">
-            <img class="img-fluid rounded mx-auto d-block img-thumbnail" src="imagens/píer_de_Iseltwald.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-item mb-3">
+            <img class="img-fluid rounded mx-auto d-block img-thumbnail img_slide col-12" src="imagens/píer_Suíça.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Píer de Iseltwald</h5>
               <p>Lago de Brienz, na Suíça.</p>
             </div>
           </div>
 
-          <!-- Ilha de Jeju, na Coreia do Sul. -->
-          <div class="carousel-item">
-            <img class="img-fluid rounded mx-auto d-block img-thumbnail" src="imagens/Jeju.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Ilha de Jeju</h5>
-              <p>Coreia do Sul.</p>
-            </div>
-          </div>
+          
         </div>
-
-       
 
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -145,26 +144,258 @@
     </div>
 
 
-    <!-- Localidade -->
-    <h4 id="localidade">Onde fica?</h4>
+    <!-- DESTINOS / cards-->    
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut praesentium dolor, deleniti nesciunt illum delectus magni tenetur esse doloribus asperiores ab minus quas quo molestiae non earum quaerat accusamus excepturi?</p>
+    <h4 id="destinos" class="mt-5 mb-5">Escolha o seu destino:</h4>
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut praesentium dolor, deleniti nesciunt illum delectus magni tenetur esse doloribus asperiores ab minus quas quo molestiae non earum quaerat accusamus excepturi?</p>
+    <div class="container row mx-auto g-4 container_card">
+      <!-- mx- auto: m=margem x=dir/esq -->
+      <!-- g-4: gap/espaço entre eles -->
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut praesentium dolor, deleniti nesciunt illum delectus magni tenetur esse doloribus asperiores ab minus quas quo molestiae non earum quaerat accusamus excepturi?</p>
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut praesentium dolor, deleniti nesciunt illum delectus magni tenetur esse doloribus asperiores ab minus quas quo molestiae non earum quaerat accusamus excepturi?</p>
+      <!-- Cancún, México -->
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut praesentium dolor, deleniti nesciunt illum delectus magni tenetur esse doloribus asperiores ab minus quas quo molestiae non earum quaerat accusamus excepturi?</p>
+     <div class="col-12 col-md-6 col-xl-4 pb-4">
+      <!-- md-6 pra ficar 2 cards na mesma linha >=768px
+      col-xl-4 pra ficar 3 cards na mesma linha >=1200 px -->
+      <div class="card">
+        <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" -->
+        <!-- role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"> -->
+        <img class="img_cards" src="imagens/cancún_méxico.jpg">
+        <!-- <title>Cancún</title> -->
+        <p class="text-center mt-1"><strong>Cancún</strong></p>
+        <p class="text-center"><small>México</small></p>
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut praesentium dolor, deleniti nesciunt illum delectus magni tenetur esse doloribus asperiores ab minus quas quo molestiae non earum quaerat accusamus excepturi?</p>
+        <rect width="100%" height="100%" fill="#868e96"></rect>
+        <!-- <text x="50%" y="50%" fill="#dee2e6" dy=".3em">México</text> -->
+      
+        <div class="card-header btn">
+          <!-- <h5 class="card-title">Card title</h5> -->
+          <!-- <p class="card-text">Categoria</p> -->
+          <a href="#" class="btn btn-primary">Veja mais</a>
+        </div>
+      </div>
+     </div>
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut praesentium dolor, deleniti nesciunt illum delectus magni tenetur esse doloribus asperiores ab minus quas quo molestiae non earum quaerat accusamus excepturi?</p>
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut praesentium dolor, deleniti nesciunt illum delectus magni tenetur esse doloribus asperiores ab minus quas quo molestiae non earum quaerat accusamus excepturi?</p>
+     <!--Cristo Redentor, RJ  -->
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut praesentium dolor, deleniti nesciunt illum delectus magni tenetur esse doloribus asperiores ab minus quas quo molestiae non earum quaerat accusamus excepturi?</p>
+     <div class="col-12 col-md-6 col-xl-4 pb-4">
+      
+      <div class="card">
+        
+        <img class="img_cards" src="imagens/cristo.webp">
+        <p class="text-center mt-1"><strong>Cristo Redentor</strong></p>
+        <p class="text-center"><small>Rio de Janeiro, Brasil</small></p>
+
+        <div class="card-header btn">
+          <a href="#" class="btn btn-primary">Veja mais</a>
+        </div>
+      </div>
+     </div>
+
+     <!--Portão de Brandemburgo, Berlim, Alemanha -->
+
+     <div class="col-12 col-md-6 col-xl-4 pb-4">
+      
+      <div class="card">
+        
+        <img class="img_cards" src="imagens/portao-de-brandemburgo-berlim - Copia.webp">
+        <p class="text-center mt-1"><strong>Portão de Brandemburgo</strong></p>
+        <p class="text-center"><small>Berlim, Alemanha</small></p>
+
+        <div class="card-header btn">
+          <a href="#" class="btn btn-primary">Veja mais</a>
+        </div>
+      </div>
+     </div>
+
+     <!--Ilha de Jeju, Seul, Coréia do Sul -->
+     
+     <div class="col-12 col-md-6 col-xl-4 pb-4">
+     
+      <div class="card">
+     
+        <img class="img_cards" src="imagens/Jeju.jpg">
+        <p class="text-center mt-1"><strong>Ilha de Jeju</strong></p>
+        <p class="text-center"><small>Coréia do Sul</small></p>
+
+        <div class="card-header btn">
+          <a href="#" class="btn btn-primary">Veja mais</a>
+        </div>
+      </div>
+     </div>
+
+     <!-- Píer de Iseltwald, Lago de Brienz na Suíça. -->
+     
+     <div class="col-12 col-md-6 col-xl-4 pb-4">
+      
+      <div class="card">
+        
+        <img class="img_cards" src="imagens/píer_Suíça.jpg">
+        <p class="text-center mt-1"><strong>Píer de Iseltwald</strong></p>
+        <p class="text-center"><small>Lago de Brienz, na Suíça</small></p>
+
+       <div class="card-header btn">
+          <a href="#" class="btn btn-primary">Veja mais</a>
+        </div>
+      </div>
+     </div>
+
+     <!-- Arena de Verona, Itália  -->
+     
+     <div class="col-12 col-md-6 col-xl-4 pb-4">
+      
+      <div class="card">
+        <img class="img_cards" src="imagens/arena-de-verona.jpg">
+        <p class="text-center mt-1"><strong>Arena de Verona</strong></p>
+        <p class="text-center"><small>Piazza Bra, Itália</small></p>
+
+        <div class="card-header btn">
+          <a href="#" class="btn btn-primary">Veja mais</a>
+        </div>
+      </div>
+     </div>
+
+     <!--Pão de Açúcar, Rio de Janeiro, Brasil-->
+     
+     <div class="col-12 col-md-6 col-xl-4 pb-4">
+      
+      <div class="card">
+        <img class="img_cards" src="imagens/pao_açúcar.jpg">
+        <p class="text-center mt-1"><strong>Pão de Açúcar</strong></p>
+        <p class="text-center"><small>Rio de Janeiro, Brasil</small></p>
+
+        <div class="card-header btn">
+          <a href="#" class="btn btn-primary">Veja mais</a>
+        </div>
+      </div>
+     </div>
+
+     <!--Palácio de Buckingham, Londres  -->
+     
+     <div class="col-12 col-md-6 col-xl-4 pb-4">
+      
+      <div class="card">
+        <img class="img_cards" src="imagens/palacio-de-buckingham.jpg">
+        <p class="text-center mt-1"><strong>Palácio de Buckingham</strong></p>
+        <p class="text-center"><small>Londres</small></p>
+
+        <div class="card-header btn">
+          <a href="#" class="btn btn-primary">Veja mais</a>
+        </div>
+      </div>
+     </div>
+
+     <!--Torre Eiffel, Paris -->
+     
+     <div class="col-12 col-md-6 col-xl-4 pb-4">
+      
+      <div class="card">
+        <img class="img_cards" src="imagens/torre_eiffel.jpg">
+        <p class="text-center mt-1"><strong>Torre Eiffel</strong></p>
+        <p class="text-center"><small>Paris</small></p>
+
+        <div class="card-header btn">
+          <a href="#" class="btn btn-primary">Veja mais</a>
+        </div>
+      </div>
+     </div>
+
+     <!--Namsan Tower,  Seul na Coreia do Sul -->
+     
+     <div class="col-12 col-md-6 col-xl-4 pb-4">
+      
+      <div class="card">
+        <img class="img_cards" src="imagens/Namsan_Tower.jpg">
+        <p class="text-center mt-1"><strong>Namsan Tower</strong></p>
+        <p class="text-center"><small> Seul, Coréia do Sul</small></p>
+
+        <div class="card-header btn">
+          <a href="#" class="btn btn-primary">Veja mais</a>
+        </div>
+      </div>
+     </div>
+
+     <!-- Pacific Park, píer em Santa Mônica, em Los Angeles -->
+     
+     <div class="col-12 col-md-6 col-xl-4 pb-4">
+      
+      <div class="card">
+        <img class="img_cards" src="imagens/píer_santa_monica.jpg">
+        <p class="text-center mt-1"><strong>Pacific Park</strong></p>
+        <p class="text-center"><small>Píer em Santa Mônica, Los Angeles</small></p>
+
+        <div class="card-header btn">
+          <a href="#" class="btn btn-primary">Veja mais</a>
+        </div>
+      </div>
+     </div>
+
+     <!--Praia de Ponta Verde, Maceió, Brasil  -->
+     
+     <div class="col-12 col-md-6 col-xl-4 pb-4">
+      
+      <div class="card">
+        <img class="img_cards" src="imagens/Ponta-Verde-em-Maceió-2.jpg">
+        <p class="text-center mt-1"><strong>Praia de Ponta Verde</strong></p>
+        <p class="text-center"><small>Maceió, Brasil</small></p>
+
+        <div class="card-header btn">
+          <a href="#" class="btn btn-primary">Veja mais</a>
+        </div>
+      </div>
+     </div>
+
+     <!--  -->
+     
+     <div class="col-12 col-md-6 col-xl-4 pb-4">
+      
+      <div class="card">
+        <img class="img_cards" src="imagens/arena-de-verona.jpg">
+        <p class="text-center mt-1"><strong> Arena de Verona</strong></p>
+        <p class="text-center"><small>Piazza Bra, Itália</small></p>
+
+        <div class="card-header btn">
+          <a href="#" class="btn btn-primary">Veja mais</a>
+        </div>
+      </div>
+     </div>
+
+     <!--  -->
+     
+     <div class="col-12 col-md-6 col-xl-4 pb-4">
+      
+      <div class="card">
+        <img class="img_cards" src="imagens/arena-de-verona.jpg">
+        <p class="text-center mt-1"><strong> Arena de Verona</strong></p>
+        <p class="text-center"><small>Piazza Bra, Itália</small></p>
+
+        <div class="card-header btn">
+          <a href="#" class="btn btn-primary">Veja mais</a>
+        </div>
+      </div>
+     </div>
+
+     <!--  -->
+     
+     <div class="col-12 col-md-6 col-xl-4 pb-4">
+      
+      <div class="card">
+        <img class="img_cards" src="imagens/arena-de-verona.jpg">
+        <p class="text-center mt-1"><strong> Arena de Verona</strong></p>
+        <p class="text-center"><small>Piazza Bra, Itália</small></p>
+
+        <div class="card-header btn">
+          <a href="#" class="btn btn-primary">Veja mais</a>
+        </div>
+      </div>
+     </div>
+
+     
+    </div>
+
+
 
 
     <!-- História -->
@@ -188,7 +419,15 @@
 
 
     <footer>
+      <a href="https://www.cvc.com.br/destinos/paris-franca">CVC</a>
+      <br>
       <a href="https://ondeficaremsuaviagem.com/coreia-do-sul/onde-ficar-em-ilha-de-jeju-na-coreia-do-sul/">Viagens</a>
+      <br>
+      <a href="https://turismo.eurodicas.com.br/pontos-turisticos-de-berlim/">Eurodicas</a>
+      <br>
+      <a href="https://www.hellotickets.com.br/franca/paris/dicas-para-visitar-a-torre-eiffel/sc-125-2319">Hellotickets</a>
+      <br>
+      <a href="https://www.pariscityvision.com/pt/paris/lugares-marcantes-de-paris/torre-eiffel/historia-torre-eiffel">Paris City Vision</a>
     </footer>
 
     <!-- Incluindo o Bootstrap 5 via CDN (copiando os links)-->
