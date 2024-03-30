@@ -43,11 +43,11 @@
 
     /*TABELA LOCAIS MAIS VISITADOS EM 202*/
 
-.tabela {
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
+    .tabela {
+        text-align: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 
     /*FOOTER*/
 
