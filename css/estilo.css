@@ -118,8 +118,20 @@ h5+p {
 
 
 /*HISTÓRIA*/
- 
 
+/*Nome do local*/
+.história_local {
+    margin-left: 1rem;
+}
+
+/*Contando um pouco da história*/
+.história_p {
+    margin-top: -1rem;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    text-align: justify;
+
+}
 
 /*FOOTER*/
 .link_footer {
