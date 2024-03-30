@@ -1,0 +1,52 @@
+/*RESPONSIVIDADE*/
+
+
+@media screen and (max-width: 768px) {
+
+    /*Título*/
+    h1 {
+        font-size: 2rem;
+
+    }
+
+    /*Imagem avião no globo e em movimento do título*/
+    .img_avião {  
+        width: 2rem;
+   
+    }
+
+    /*Subtítulo*/
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    /*Avião colorido em movimento*/
+    .avião_movimento {
+        /*pra animar o avião colorido*/
+        transform: translateX(-300px); /*desliza da esquerda pra direita*/
+    }
+
+    /*Seção: Escolha seu destino / História*/
+    h4 {
+        text-align: center;
+        margin-top: 2rem;
+
+    }
+
+    /*lead pra parágrafos destaque*/
+    .lead {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+
+    /*FOOTER*/
+
+    /*Créditos*/
+    .link_footer {
+        text-align: center;
+
+    }
+
+   
+}

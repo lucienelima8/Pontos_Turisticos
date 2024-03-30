@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@900&display=swap');
 
+/*Menu*/
 ul {
     list-style: none;
     display: flex;
@@ -8,26 +9,55 @@ ul {
     gap: 5rem;
     position: fixed;
     background-color: #fdf9f9ea;
-    /*background-color: #f7f7c4;*/
     padding: .6rem;
     border-radius: 10px;
 
     z-index: 1; /*pro menu se sobrepor*/
+
 }
 
 /*Título*/
 h1  {
     font-family: 'Merienda', cursive;
     font-size: 4rem;
-    border-bottom: 1px dashed green;
+    /*border-bottom: 1px dashed rgba(255, 0, 0, 0.247);*/
    
    
 }
 
-/*Imagem avião antes e depois do título*/
+/*Imagem avião no globo e em movimento do título*/
 .img_avião {
     width: 4rem;
    
+}
+
+/*Avião colorido em movimento*/
+.avião_movimento {
+    /*pra animar o avião colorido*/
+    transform: translateX(-600px); /*desliza da esquerda pra direita*/
+    opacity: 0; /*saída dele transparente*/
+
+    /*pra linkar o keyframe abaixo com a parte aqui que quero animar*/
+    animation-name: avião-movimentando; /*nome da animação*/
+    animation-duration: 5s;/*velocidade*/
+    animation-timing-function: ease; 
+    animation-delay: 1;
+    
+    /*direção da animação*/
+    animation-duration: normal; /*direção*/
+    animation-fill-mode: forwards;
+    animation-play-state: running; /*estado da animação*/
+    animation-iteration-count: 1; /*quantas vezes vai ocorrer*/
+
+}
+
+/*animação pro avião colorido do título*/
+@keyframes avião-movimentando {
+    to {
+        transform: translateX(0);
+        opacity: 1; /*chegada mostrando ele*/
+
+    }
 }
 
 /*Subtítulo*/
@@ -39,10 +69,11 @@ h3 {
 
 /*SLIDE*/
 
-/*Seção: Escolha seu destino / História*/
-h4 {
+/*Seção: Escolha seu destino / História / lead pra parágrafos destaque*/
+h4, .lead {
     margin-left: 1rem;
 }
+
 
 /*Nome do local*/
 h5 {
@@ -90,7 +121,11 @@ h5+p {
  
 
 
+/*FOOTER*/
+.link_footer {
+    margin-left: 3rem;
 
+}
 
 
 

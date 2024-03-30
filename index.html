@@ -15,9 +15,15 @@
     <!-- ícone na aba -->
     <link rel="shortcut icon" href="imagens/rota.png" type="image/x-icon">
 
-        
+    <!-- Linkar os ícones do instagram, youtube, github...: CDN-->
+    <script src="https://kit.fontawesome.com/7d79481767.js" crossorigin="anonymous"></script>
+
     <!-- Linkar css -->
     <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- Linkar responsivo css -->
+    <link rel="stylesheet" href="css/responsivo.css">
+
     
 
 </head>
@@ -51,9 +57,9 @@
               <a class="nav-link text-primary" href="#história">História</a>
             </li>
 
-            <li class="nav-item">
+            <!-- <li class="nav-item"> 
               <a class="nav-link text-primary" href="#">Mapa</a>
-            </li>
+            </li>-->
 
             <!-- <li class="nav-item dropdown"> 
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -84,22 +90,20 @@
     <!-- Título e subtítulo -->
 
     <!-- Ícone de um avião antes e depois do título -->
-    <h1 class="text-center text-primary mt-5"> 
+    <h1 class="text-center text-primary mt-4 mb-2"> 
       <img class="img_avião" src="imagens/voo-de-aviao.png" alt="imagem de um avião em volta de um globo terrestre"> Pontos Turísticos
-      <img class="img_avião" src="imagens/aviao.png" alt="imagem de um avião">
+      <img class="img_avião avião_movimento" src="imagens/aviao.png" alt="imagem de um avião">
     </h1>
     
     <!-- Subtítulo-->    
-    <h3 class="text-center mt-3 mb-4">Colecione lembranças</h3>
+    <h3 class="text-center mt-1 mb-5">Colecione lembranças</h3>
 
-    
-    
-
-
+  
+  
    
     <!-- Carrossel / Slide-->
 
-    <div class="container w-50 h-auto">
+    <div class="container w-10 h-auto">
 
      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -154,10 +158,12 @@
     </div>
 
 
-    <!-- DESTINOS / cards-->    
+    <!-- ESCOLHA O SEU DESTINO / cards-->    
 
-    <h4 id="destinos" class="mt-5 mb-5 text-primary">Escolha o seu destino:</h4>
+    <h4 id="destinos" class="mt-5 mb-1 text-primary">Escolha o seu destino:</h4>
 
+    <!-- lead pra destacar um parágrafo dos outros -->
+    <p class="lead mb-5">Colecione lembranças com viagens entre família e amigos.Encontre abaixo seu próximo destino!</p>
     <div class="container row mx-auto g-4 container_card">
       <!-- mx- auto: m=margem x=dir/esq -->
       <!-- g-4: gap/espaço entre eles -->
@@ -182,7 +188,18 @@
         <div class="card-header btn">
           <!-- <h5 class="card-title">Card title</h5> -->
           <!-- <p class="card-text">Categoria</p> -->
-          <a href="https://www.google.com/search?sca_esv=070a86fdf7893579&q=cancun+m%C3%A9xico&tbm=isch&source=lnms&prmd=imvnsbtz&sa=X&ved=2ahUKEwjRuIactpqFAxVYmZUCHWFiADIQ0pQJegQIDxAB&biw=1366&bih=607&dpr=1" class="btn btn-primary" target="_blank">Veja mais fotos</a>
+
+          <!-- Veja mais fotos -->
+          <a href="https://www.google.com/search?sca_esv=070a86fdf7893579&q=cancun+m%C3%A9xico&tbm=isch&source=lnms&prmd=imvnsbtz&sa=X&ved=2ahUKEwjRuIactpqFAxVYmZUCHWFiADIQ0pQJegQIDxAB&biw=1366&bih=607&dpr=1" class="btn btn-outline-primary btn-sm" target="_blank">Veja mais fotos</a>
+          <br>
+
+          <!-- Vídeos -->
+          <a href="https://www.google.com/search?sca_esv=d1d3b98f0629dca4&q=Canc%C3%BAn+M%C3%A9xico&tbm=vid&source=lnms&prmd=imvnsbtz&sa=X&ved=2ahUKEwiL6b-hoJyFAxWSRLgEHQ74B4cQ0pQJegQIDxAB&biw=1366&bih=607&dpr=1" class="btn btn-outline-primary btn-sm mt-2" target="_blank">Vídeos</a>
+          <br>
+          
+          <!-- Mapa -->
+          <a href="https://www.google.com/maps/place/Canc%C3%BAn,+Quintana+Roo,+M%C3%A9xico/@21.1213186,-87.0212157,11z/data=!3m1!4b1!4m6!3m5!1s0x8f4c2b05aef653db:0xce32b73c625fcd8a!8m2!3d21.161908!4d-86.8515279!16zL20vMDFxOTht?entry=ttu" class="btn btn-outline-primary btn-sm mt-2" target="_blank">Mapa</a>
+
         </div>
       </div>
      </div>
@@ -199,7 +216,11 @@
         <p class="text-center"><small>Rio de Janeiro, Brasil</small></p>
 
         <div class="card-header btn">
-          <a href="https://www.google.com/search?sca_esv=070a86fdf7893579&q=cristo+redentor&tbm=isch&source=lnms&prmd=ivmnsbtz&sa=X&ved=2ahUKEwio9oTxtpqFAxXOq5UCHfcmC88Q0pQJegQIDhAB&biw=1366&bih=607&dpr=1" class="btn btn-primary" target="_blank">Veja mais fotos</a>
+          <a href="https://www.google.com/search?sca_esv=070a86fdf7893579&q=cristo+redentor&tbm=isch&source=lnms&prmd=ivmnsbtz&sa=X&ved=2ahUKEwio9oTxtpqFAxXOq5UCHfcmC88Q0pQJegQIDhAB&biw=1366&bih=607&dpr=1" class="btn btn-outline-primary btn-sm" target="_blank">Veja mais fotos</a>
+          <br>
+          <a href="https://www.google.com/search?q=cristo+redentor&sca_esv=d1d3b98f0629dca4&biw=1366&bih=607&tbm=vid&ei=CykIZsP1O67L1sQP0Lqj4Ag&udm=&ved=0ahUKEwiDp8yioJyFAxWupZUCHVDdCIwQ4dUDCA0&uact=5&oq=cristo+redentor&gs_lp=Eg1nd3Mtd2l6LXZpZGVvIg9jcmlzdG8gcmVkZW50b3IyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESNQPUABYqQ5wAHgAkAEAmAHXAaAB_A-qAQYwLjE0LjG4AQPIAQD4AQGYAg-gAu0QwgIKEAAYgAQYigUYQ8ICCBAAGIAEGLEDwgILEAAYgAQYsQMYgwHCAg4QABiABBiKBRixAxiDAcICDRAAGIAEGIoFGEMYsQOYAwCSBwYwLjEzLjKgB_dT&sclient=gws-wiz-video" class="btn btn-outline-primary btn-sm mt-2" target="_blank">Vídeos</a>
+          <br>
+          <a href="https://www.google.com/maps/place/Cristo+Redentor/@-22.951916,-43.2130621,17z/data=!3m1!4b1!4m6!3m5!1s0x997fd5984aa13f:0x9dc984d7019502de!8m2!3d-22.951916!4d-43.2104872!16zL20vMDNneXR3?entry=ttu" class="btn btn-outline-primary btn-sm mt-2" target="_blank">Mapa</a>
         </div>
       </div>
      </div>
@@ -215,7 +236,11 @@
         <p class="text-center"><small>Berlim, Alemanha</small></p>
 
         <div class="card-header btn">
-          <a href="https://www.google.com/search?q=Port%C3%A3o+de+Brandemburgo&tbm=isch&ved=2ahUKEwj6y6LytpqFAxWhBbkGHUyBAUgQ2-cCegQIABAA&oq=Port%C3%A3o+de+Brandemburgo&gs_lp=EgNpbWciF1BvcnTDo28gZGUgQnJhbmRlbWJ1cmdvMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEiyDlCrCVirCXAAeACQAQCYAW2gAdMBqgEDMC4yuAEDyAEA-AEBigILZ3dzLXdpei1pbWfCAg0QABiABBiKBRhDGLEDwgIIEAAYgAQYsQOIBgE&sclient=img&ei=VTQHZrrNCqGL5OUPzIKGwAQ&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-primary" target="_blank">Veja mais fotos</a>
+          <a href="https://www.google.com/search?q=Port%C3%A3o+de+Brandemburgo&tbm=isch&ved=2ahUKEwj6y6LytpqFAxWhBbkGHUyBAUgQ2-cCegQIABAA&oq=Port%C3%A3o+de+Brandemburgo&gs_lp=EgNpbWciF1BvcnTDo28gZGUgQnJhbmRlbWJ1cmdvMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEiyDlCrCVirCXAAeACQAQCYAW2gAdMBqgEDMC4yuAEDyAEA-AEBigILZ3dzLXdpei1pbWfCAg0QABiABBiKBRhDGLEDwgIIEAAYgAQYsQOIBgE&sclient=img&ei=VTQHZrrNCqGL5OUPzIKGwAQ&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-outline-primary btn-sm" target="_blank">Veja mais fotos</a>
+          <br>
+          <a href="https://www.google.com/search?q=Port%C3%A3o+de+Brandemburgo%0D%0A%0D%0ABerlim%2C+Alemanha&sca_esv=d1d3b98f0629dca4&biw=1366&bih=607&tbm=vid&ei=RioIZrXnI-7Z1sQPwfi4yAc&udm=&ved=0ahUKEwi1os64oZyFAxXurJUCHUE8DnkQ4dUDCA0&uact=5&oq=Port%C3%A3o+de+Brandemburgo%0D%0A%0D%0ABerlim%2C+Alemanha&gs_lp=Eg1nd3Mtd2l6LXZpZGVvIilQb3J0w6NvIGRlIEJyYW5kZW1idXJnbwoKQmVybGltLCBBbGVtYW5oYTIFEAAYgAQyBRAAGIAEMgUQABiABDIKEAAYgAQYigUYQzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEj3B1DtBFjtBHAAeACQAQCYAZ0BoAGhAqoBAzAuMrgBA8gBAPgBAvgBAZgCAqACtAKYAwCIBgGSBwMwLjKgB_4L&sclient=gws-wiz-video" class="btn btn-outline-primary btn-sm mt-2" target="_blank">Vídeos</a>
+          <br>
+          <a href="https://www.google.com/maps/place/Port%C3%A3o+de+Brandemburgo/@52.5162746,13.3751292,17z/data=!3m1!4b1!4m6!3m5!1s0x47a851c655f20989:0x26bbfb4e84674c63!8m2!3d52.5162746!4d13.3777041!16zL20vMDE0a2Y4?entry=ttu" class="btn btn-outline-primary btn-sm mt-2" target="_blank">Mapa</a>
         </div>
       </div>
      </div>
@@ -231,7 +256,9 @@
         <p class="text-center"><small>Coréia do Sul</small></p>
 
         <div class="card-header btn">
-          <a href="https://www.google.com/search?q=Ilha+de+Jeju&tbm=isch&ved=2ahUKEwjLruSIt5qFAxVEILkGHZRkDvMQ2-cCegQIABAA&oq=Ilha+de+Jeju&gs_lp=EgNpbWciDElsaGEgZGUgSmVqdTILEAAYgAQYsQMYgwEyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHkjtB1C0BVi0BXAAeACQAQCYAXegAewBqgEDMC4yuAEDyAEA-AEBigILZ3dzLXdpei1pbWfCAgoQABiABBiKBRhDiAYB&sclient=img&ei=hDQHZsvcF8TA5OUPlMm5mA8&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-primary" target="_blank">Veja mais fotos</a>
+          <a href="https://www.google.com/search?q=Ilha+de+Jeju&tbm=isch&ved=2ahUKEwjLruSIt5qFAxVEILkGHZRkDvMQ2-cCegQIABAA&oq=Ilha+de+Jeju&gs_lp=EgNpbWciDElsaGEgZGUgSmVqdTILEAAYgAQYsQMYgwEyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHkjtB1C0BVi0BXAAeACQAQCYAXegAewBqgEDMC4yuAEDyAEA-AEBigILZ3dzLXdpei1pbWfCAgoQABiABBiKBRhDiAYB&sclient=img&ei=hDQHZsvcF8TA5OUPlMm5mA8&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-outline-primary btn-sm" target="_blank">Veja mais fotos</a>
+          <br>
+          <a href="https://www.google.com/maps/place/Jeju+Island/@33.3624832,126.3464381,10z/data=!4m6!3m5!1s0x350c692dd313c3b5:0x52e78dce747842b3!8m2!3d33.3785614!4d126.5661908!16s%2Fg%2F121z6l6y?entry=ttu" class="btn btn-outline-primary btn-sm mt-2" target="_blank">Mapa</a>
         </div>
       </div>
      </div>
@@ -247,7 +274,9 @@
         <p class="text-center"><small>Lago de Brienz, na Suíça</small></p>
 
        <div class="card-header btn">
-          <a href="https://www.google.com/search?q=P%C3%ADer+de+Iseltwald&tbm=isch&ved=2ahUKEwjtvMOzt5qFAxUKHLkGHT7sB44Q2-cCegQIABAA&oq=P%C3%ADer+de+Iseltwald&gs_lp=EgNpbWciElDDrWVyIGRlIElzZWx0d2FsZEiWCFD_BVj_BXAAeACQAQCYAXWgAeMBqgEDMC4yuAEDyAEA-AEBigILZ3dzLXdpei1pbWfCAhAQABiABBiKBRhDGLEDGIMBwgIFEAAYgATCAgoQABiABBiKBRhDwgIGEAAYBxgewgIEEAAYHogGAQ&sclient=img&ei=3jQHZu3VAYq45OUPvtif8Ag&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-primary" target="_blank">Veja mais fotos</a>
+          <a href="https://www.google.com/search?q=P%C3%ADer+de+Iseltwald&tbm=isch&ved=2ahUKEwjtvMOzt5qFAxUKHLkGHT7sB44Q2-cCegQIABAA&oq=P%C3%ADer+de+Iseltwald&gs_lp=EgNpbWciElDDrWVyIGRlIElzZWx0d2FsZEiWCFD_BVj_BXAAeACQAQCYAXWgAeMBqgEDMC4yuAEDyAEA-AEBigILZ3dzLXdpei1pbWfCAhAQABiABBiKBRhDGLEDGIMBwgIFEAAYgATCAgoQABiABBiKBRhDwgIGEAAYBxgewgIEEAAYHogGAQ&sclient=img&ei=3jQHZu3VAYq45OUPvtif8Ag&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-outline-primary btn-sm" target="_blank">Veja mais fotos</a>
+          <br>
+          <a href="https://www.google.com/maps/place/Lago+de+Brienz/@46.7008967,7.8362107,15892m/data=!3m1!1e3!4m9!1m2!2m1!1sP%C3%ADer+de+Iseltwald+Lago+de+Brienz,+na+Su%C3%AD%C3%A7a!3m5!1s0x478fbd607bfad2fb:0x19281ec105cab0c7!8m2!3d46.7267426!4d7.9674729!16zL20vMDJoX255?entry=ttu" class="btn btn-outline-primary btn-sm mt-2" target="_blank">Mapa</a>
         </div>
       </div>
      </div>
@@ -262,7 +291,9 @@
         <p class="text-center"><small>Roma, na Itália</small></p>
 
         <div class="card-header btn">
-          <a href="https://www.google.com/search?q=Coliseu&tbm=isch&ved=2ahUKEwjr6_PEt5qFAxXFN7kGHQCNAOEQ2-cCegQIABAA&oq=Coliseu&gs_lp=EgNpbWciB0NvbGlzZXUyCBAAGIAEGLEDMggQABiABBixAzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESN4GUMoEWMoEcAB4AJABAJgBaaAB0QGqAQMwLjK4AQPIAQD4AQGKAgtnd3Mtd2l6LWltZ4gGAQ&sclient=img&ei=AjUHZuviHMXv5OUPgJqCiA4&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-primary" target="_blank">Veja mais fotos</a>
+          <a href="https://www.google.com/search?q=Coliseu&tbm=isch&ved=2ahUKEwjr6_PEt5qFAxXFN7kGHQCNAOEQ2-cCegQIABAA&oq=Coliseu&gs_lp=EgNpbWciB0NvbGlzZXUyCBAAGIAEGLEDMggQABiABBixAzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESN4GUMoEWMoEcAB4AJABAJgBaaAB0QGqAQMwLjK4AQPIAQD4AQGKAgtnd3Mtd2l6LWltZ4gGAQ&sclient=img&ei=AjUHZuviHMXv5OUPgJqCiA4&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-outline-primary btn-sm" target="_blank">Veja mais fotos</a>
+          <br>
+          <a href="https://www.google.com/maps?sca_esv=d1d3b98f0629dca4&output=search&q=Coliseu+Roma,+na+It%C3%A1lia&source=lnms&entry=mc&ved=1t:200715&ictx=111" class="btn btn-outline-primary btn-sm mt-2" target="_blank">Mapa</a>
         </div>
       </div>
      </div>
@@ -277,7 +308,9 @@
         <p class="text-center"><small>Rio de Janeiro, Brasil</small></p>
 
         <div class="card-header btn">
-          <a href="https://www.google.com/search?q=p%C3%A3o+de+a%C3%A7ucar+rio+de+janeiro&tbm=isch&ved=2ahUKEwjYqtLqt5qFAxXKP7kGHQCTAc8Q2-cCegQIABAA&oq=P%C3%A3o+de+A%C3%A7%C3%BAcar%2C+rio&gs_lp=EgNpbWciFVDDo28gZGUgQcOnw7pjYXIsIHJpbyoCCAAyBRAAGIAEMgUQABiABDIFEAAYgAQyBhAAGAUYHjIGEAAYBRgeMgYQABgFGB4yBhAAGAUYHjIGEAAYBRgeMgcQABiABBgYMgcQABiABBgYSLoaUKoNWIQQcAB4AJABAJgBgAGgAZ0FqgEDMC42uAEByAEA-AEBigILZ3dzLXdpei1pbWfCAgoQABiABBiKBRhDwgIEEAAYHsICBhAAGAgYHogGAQ&sclient=img&ei=UTUHZpi-Jcr_5OUPgKaG-Aw&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-primary" target="_blank">Veja mais fotos</a>
+          <a href="https://www.google.com/search?q=p%C3%A3o+de+a%C3%A7ucar+rio+de+janeiro&tbm=isch&ved=2ahUKEwjYqtLqt5qFAxXKP7kGHQCTAc8Q2-cCegQIABAA&oq=P%C3%A3o+de+A%C3%A7%C3%BAcar%2C+rio&gs_lp=EgNpbWciFVDDo28gZGUgQcOnw7pjYXIsIHJpbyoCCAAyBRAAGIAEMgUQABiABDIFEAAYgAQyBhAAGAUYHjIGEAAYBRgeMgYQABgFGB4yBhAAGAUYHjIGEAAYBRgeMgcQABiABBgYMgcQABiABBgYSLoaUKoNWIQQcAB4AJABAJgBgAGgAZ0FqgEDMC42uAEByAEA-AEBigILZ3dzLXdpei1pbWfCAgoQABiABBiKBRhDwgIEEAAYHsICBhAAGAgYHogGAQ&sclient=img&ei=UTUHZpi-Jcr_5OUPgKaG-Aw&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-outline-primary btn-sm" target="_blank">Veja mais fotos</a>
+          <br>
+          <a href="https://www.google.com/maps/place/P%C3%A3o+de+A%C3%A7%C3%BAcar/@-22.9492569,-43.1751753,14z/data=!3m1!4b1!4m6!3m5!1s0x9980409039f845:0x8075d7bcdfbcb48c!8m2!3d-22.9492586!4d-43.1545757!16zL20vMDYzNGsy?entry=ttu" class="btn btn-outline-primary btn-sm mt-2" target="_blank">Mapa</a>
         </div>
       </div>
      </div>
@@ -292,7 +325,9 @@
         <p class="text-center"><small>Londres</small></p>
 
         <div class="card-header btn">
-          <a href="https://www.google.com/search?q=Pal%C3%A1cio+de+Buckingham&tbm=isch&ved=2ahUKEwiJ2pT6t5qFAxVzLLkGHeiVDZcQ2-cCegQIABAA&oq=Pal%C3%A1cio+de+Buckingham&gs_lp=EgNpbWciFlBhbMOhY2lvIGRlIEJ1Y2tpbmdoYW0yCBAAGIAEGLEDMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESKYHUJ4FWJ4FcAB4AJABAJgBqgGgAZoCqgEDMC4yuAEDyAEA-AEBigILZ3dzLXdpei1pbWeIBgE&sclient=img&ei=cjUHZonZCfPY5OUP6Ku2uAk&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-primary" target="_blank">Veja mais fotos</a>
+          <a href="https://www.google.com/search?q=Pal%C3%A1cio+de+Buckingham&tbm=isch&ved=2ahUKEwiJ2pT6t5qFAxVzLLkGHeiVDZcQ2-cCegQIABAA&oq=Pal%C3%A1cio+de+Buckingham&gs_lp=EgNpbWciFlBhbMOhY2lvIGRlIEJ1Y2tpbmdoYW0yCBAAGIAEGLEDMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESKYHUJ4FWJ4FcAB4AJABAJgBqgGgAZoCqgEDMC4yuAEDyAEA-AEBigILZ3dzLXdpei1pbWeIBgE&sclient=img&ei=cjUHZonZCfPY5OUP6Ku2uAk&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-outline-primary btn-sm" target="_blank">Veja mais fotos</a>
+          <br>
+          <a href="https://www.google.com/maps/place/Pal%C3%A1cio+de+Buckingham/@51.501364,-0.1444649,17z/data=!3m1!4b1!4m6!3m5!1s0x48760520cd5b5eb5:0xa26abf514d902a7!8m2!3d51.501364!4d-0.14189!16zL20vMDE5OGc?entry=ttu" class="btn btn-outline-primary btn-sm mt-2" target="_blank">Mapa</a>
         </div>
       </div>
      </div>
@@ -307,7 +342,9 @@
         <p class="text-center"><small>Paris</small></p>
 
         <div class="card-header btn">
-          <a href="https://www.google.com/search?q=Torre+Eiffel%2C+Paris&tbm=isch&ved=2ahUKEwios9WLuJqFAxVzLLkGHeiVDZcQ2-cCegQIABAA&oq=Torre+Eiffel%2C+Paris&gs_lp=EgNpbWciE1RvcnJlIEVpZmZlbCwgUGFyaXMyBRAAGIAEMgsQABiABBixAxiDATIFEAAYgAQyBBAAGB4yBBAAGB4yBBAAGB4yBBAAGB4yBBAAGB4yBBAAGB4yBhAAGAUYHkjcBlDlBFjlBHAAeACQAQCYAXKgAd8BqgEDMC4yuAEDyAEA-AEBigILZ3dzLXdpei1pbWfCAg0QABiABBiKBRhDGLEDiAYB&sclient=img&ei=ljUHZqiQNfPY5OUP6Ku2uAk&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-primary" target="_blank">Veja mais fotos</a>
+          <a href="https://www.google.com/search?q=Torre+Eiffel%2C+Paris&tbm=isch&ved=2ahUKEwios9WLuJqFAxVzLLkGHeiVDZcQ2-cCegQIABAA&oq=Torre+Eiffel%2C+Paris&gs_lp=EgNpbWciE1RvcnJlIEVpZmZlbCwgUGFyaXMyBRAAGIAEMgsQABiABBixAxiDATIFEAAYgAQyBBAAGB4yBBAAGB4yBBAAGB4yBBAAGB4yBBAAGB4yBBAAGB4yBhAAGAUYHkjcBlDlBFjlBHAAeACQAQCYAXKgAd8BqgEDMC4yuAEDyAEA-AEBigILZ3dzLXdpei1pbWfCAg0QABiABBiKBRhDGLEDiAYB&sclient=img&ei=ljUHZqiQNfPY5OUP6Ku2uAk&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-outline-primary btn-sm" target="_blank">Veja mais fotos</a>
+          <br>
+          <a href="https://www.google.com/maps/place/Torre+Eiffel/@48.8583701,2.2919064,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66e2964e34e2d:0x8ddca9ee380ef7e0!8m2!3d48.8583701!4d2.2944813!16zL20vMDJqODE?entry=ttu" class="btn btn-outline-primary btn-sm mt-2" target="_blank">Mapa</a>
         </div>
       </div>
      </div>
@@ -322,7 +359,9 @@
         <p class="text-center"><small> Seul, Coréia do Sul</small></p>
 
         <div class="card-header btn">
-          <a href="https://www.google.com/search?q=Namsan+Tower%2C++Seul+na+Coreia+do+Sul&tbm=isch&ved=2ahUKEwiAy-CbuJqFAxVmKLkGHcAMCisQ2-cCegQIABAA&oq=Namsan+Tower%2C++Seul+na+Coreia+do+Sul&gs_lp=EgNpbWciJE5hbXNhbiBUb3dlciwgIFNldWwgbmEgQ29yZWlhIGRvIFN1bDIFEAAYgAQyEBAAGIAEGIoFGEMYsQMYgwEyBRAAGIAEMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgQQABgeMgQQABgeMgQQABgeMgQQABgeSPwHUKoEWKoEcAB4AJABAJgBkQKgAZECqgEDMi0xuAEDyAEA-AEBigILZ3dzLXdpei1pbWeIBgE&sclient=img&ei=uDUHZoCPJebQ5OUPwJmo2AI&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-primary" target="_blank">Veja mais fotos</a>
+          <a href="https://www.google.com/search?q=Namsan+Tower%2C++Seul+na+Coreia+do+Sul&tbm=isch&ved=2ahUKEwiAy-CbuJqFAxVmKLkGHcAMCisQ2-cCegQIABAA&oq=Namsan+Tower%2C++Seul+na+Coreia+do+Sul&gs_lp=EgNpbWciJE5hbXNhbiBUb3dlciwgIFNldWwgbmEgQ29yZWlhIGRvIFN1bDIFEAAYgAQyEBAAGIAEGIoFGEMYsQMYgwEyBRAAGIAEMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgQQABgeMgQQABgeMgQQABgeMgQQABgeSPwHUKoEWKoEcAB4AJABAJgBkQKgAZECqgEDMi0xuAEDyAEA-AEBigILZ3dzLXdpei1pbWeIBgE&sclient=img&ei=uDUHZoCPJebQ5OUPwJmo2AI&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-outline-primary btn-sm" target="_blank">Veja mais fotos</a>
+          <br>
+          <a href="https://www.google.com/maps/place/N+Seoul+Tower/@37.5511694,126.9856517,17z/data=!3m1!4b1!4m6!3m5!1s0x357ca257a88e6aa9:0x5cf8577c2e7982a5!8m2!3d37.5511694!4d126.9882266!16zL20vMDJxcGYx?entry=ttu" class="btn btn-outline-primary btn-sm mt-2" target="_blank">Mapa</a>
         </div>
       </div>
      </div>
@@ -337,7 +376,9 @@
         <p class="text-center"><small>Santa Mônica, Los Angeles</small></p>
 
         <div class="card-header btn">
-          <a href="https://www.google.com/search?q=p%C3%ADer+em+Santa+M%C3%B4nica%2C+em+Los+Angeles&tbm=isch&ved=2ahUKEwiruZS5uJqFAxVWBbkGHbtDBx8Q2-cCegQIABAA&oq=p%C3%ADer+em+Santa+M%C3%B4nica%2C+em+Los+Angeles&gs_lp=EgNpbWciJnDDrWVyIGVtIFNhbnRhIE3DtG5pY2EsIGVtIExvcyBBbmdlbGVzSK4JUOsHWOsHcAB4AJABAJgBd6AB6gGqAQMwLjK4AQPIAQD4AQGKAgtnd3Mtd2l6LWltZ4gGAQ&sclient=img&ei=9jUHZqvmENaK5OUPu4ed-AE&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-primary" target="_blank">Veja mais fotos</a>
+          <a href="https://www.google.com/search?q=p%C3%ADer+em+Santa+M%C3%B4nica%2C+em+Los+Angeles&tbm=isch&ved=2ahUKEwiruZS5uJqFAxVWBbkGHbtDBx8Q2-cCegQIABAA&oq=p%C3%ADer+em+Santa+M%C3%B4nica%2C+em+Los+Angeles&gs_lp=EgNpbWciJnDDrWVyIGVtIFNhbnRhIE3DtG5pY2EsIGVtIExvcyBBbmdlbGVzSK4JUOsHWOsHcAB4AJABAJgBd6AB6gGqAQMwLjK4AQPIAQD4AQGKAgtnd3Mtd2l6LWltZ4gGAQ&sclient=img&ei=9jUHZqvmENaK5OUPu4ed-AE&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-outline-primary btn-sm" target="_blank">Veja mais fotos</a>
+          <br>
+          <a href="https://www.google.com/maps/place/P%C3%ADer+de+Santa+M%C3%B4nica/@34.008764,-118.5029675,16z/data=!3m1!4b1!4m6!3m5!1s0x80c2a4d74d5ea79b:0xcd9a111aced18f4d!8m2!3d34.0082821!4d-118.4987585!16zL20vMDRmZ21y?entry=ttu" class="btn btn-outline-primary btn-sm mt-2" target="_blank">Mapa</a>
         </div>
       </div>
      </div>
@@ -352,7 +393,9 @@
         <p class="text-center"><small>Maceió, Brasil</small></p>
 
         <div class="card-header btn">
-          <a href="https://www.google.com/search?q=praia+de+Ponta+Verde%2C+Macei%C3%B3%2C+Brasil&tbm=isch&ved=2ahUKEwjwl7DGuJqFAxXvCbkGHfNeDuUQ2-cCegQIABAA&oq=praia+de+Ponta+Verde%2C+Macei%C3%B3%2C+Brasil&gs_lp=EgNpbWciJXByYWlhIGRlIFBvbnRhIFZlcmRlLCBNYWNlacOzLCBCcmFzaWxIkgxQkgZYiQlwAHgAkAEAmAGuAaABkwOqAQMwLjO4AQPIAQD4AQGKAgtnd3Mtd2l6LWltZ8ICChAAGIAEGIoFGEPCAg4QABiABBiKBRixAxiDAcICBRAAGIAEwgILEAAYgAQYsQMYgwGIBgE&sclient=img&ei=ETYHZrDLPO-T5OUP8725qA4&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-primary" target="_blank">Veja mais fotos</a>
+          <a href="https://www.google.com/search?q=praia+de+Ponta+Verde%2C+Macei%C3%B3%2C+Brasil&tbm=isch&ved=2ahUKEwjwl7DGuJqFAxXvCbkGHfNeDuUQ2-cCegQIABAA&oq=praia+de+Ponta+Verde%2C+Macei%C3%B3%2C+Brasil&gs_lp=EgNpbWciJXByYWlhIGRlIFBvbnRhIFZlcmRlLCBNYWNlacOzLCBCcmFzaWxIkgxQkgZYiQlwAHgAkAEAmAGuAaABkwOqAQMwLjO4AQPIAQD4AQGKAgtnd3Mtd2l6LWltZ8ICChAAGIAEGIoFGEPCAg4QABiABBiKBRixAxiDAcICBRAAGIAEwgILEAAYgAQYsQMYgwGIBgE&sclient=img&ei=ETYHZrDLPO-T5OUP8725qA4&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-outline-primary btn-sm" target="_blank">Veja mais fotos</a>
+          <br>
+          <a href="https://www.google.com/maps/place/Praia+de+Ponta+Verde/@-9.6594056,-35.7047959,16z/data=!3m1!4b1!4m6!3m5!1s0x70145009f13b6eb:0x597cf37096164562!8m2!3d-9.6642911!4d-35.6954403!16zL20vMDcxemd2?entry=ttu" class="btn btn-outline-primary btn-sm mt-2" target="_blank">Mapa</a>
         </div>
       </div>
      </div>
@@ -367,7 +410,9 @@
         <p class="text-center"><small>Holanda</small></p>
 
         <div class="card-header btn">
-          <a href="https://www.google.com/search?q=Canais+de+Amsterdam%2C+na+Holanda&tbm=isch&ved=2ahUKEwjJ55beuJqFAxVLNLkGHd32BMQQ2-cCegQIABAA&oq=Canais+de+Amsterdam%2C+na+Holanda&gs_lp=EgNpbWciH0NhbmFpcyBkZSBBbXN0ZXJkYW0sIG5hIEhvbGFuZGFIkwZQsARYsARwAHgAkAEAmAF3oAHtAaoBAzAuMrgBA8gBAPgBAYoCC2d3cy13aXotaW1niAYB&sclient=img&ei=QzYHZom6N8vo5OUP3e2ToAw&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-primary" target="_blank">Veja mais fotos</a>
+          <a href="https://www.google.com/search?q=Canais+de+Amsterdam%2C+na+Holanda&tbm=isch&ved=2ahUKEwjJ55beuJqFAxVLNLkGHd32BMQQ2-cCegQIABAA&oq=Canais+de+Amsterdam%2C+na+Holanda&gs_lp=EgNpbWciH0NhbmFpcyBkZSBBbXN0ZXJkYW0sIG5hIEhvbGFuZGFIkwZQsARYsARwAHgAkAEAmAF3oAHtAaoBAzAuMrgBA8gBAPgBAYoCC2d3cy13aXotaW1niAYB&sclient=img&ei=QzYHZom6N8vo5OUP3e2ToAw&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-outline-primary btn-sm" target="_blank">Veja mais fotos</a>
+          <br>
+          <a href="https://www.google.com/maps/place/Canais+de+Amsterdam/@52.3715299,4.8533431,13z/data=!3m1!4b1!4m6!3m5!1s0x47c609c05b1b1103:0x21067a7298a3961a!8m2!3d52.3720805!4d4.8886558!16s%2Fm%2F03cdmdg?entry=ttu" class="btn btn-outline-primary btn-sm mt-2" target="_blank">Mapa</a>
         </div>
       </div>
      </div>
@@ -382,7 +427,9 @@
         <p class="text-center"><small>Kyoto, Japão</small></p>
 
         <div class="card-header btn">
-          <a href="https://www.google.com/search?q=Templo+do+Pavilh%C3%A3o+Dourado%2C+em+Kyoto%2C+Jap%C3%A3o&tbm=isch&ved=2ahUKEwiX68ftuJqFAxVPB7kGHWULDEcQ2-cCegQIABAA&oq=Templo+do+Pavilh%C3%A3o+Dourado%2C+em+Kyoto%2C+Jap%C3%A3o&gs_lp=EgNpbWciLVRlbXBsbyBkbyBQYXZpbGjDo28gRG91cmFkbywgZW0gS3lvdG8sIEphcMOjb0iUCVCPB1iPB3AAeACQAQCYAW2gAdgBqgEDMC4yuAEDyAEA-AEBigILZ3dzLXdpei1pbWeIBgE&sclient=img&ei=ZDYHZpepCs-O5OUP5ZawuAQ&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-primary" target="_blank">Veja mais fotos</a>
+          <a href="https://www.google.com/search?q=Templo+do+Pavilh%C3%A3o+Dourado%2C+em+Kyoto%2C+Jap%C3%A3o&tbm=isch&ved=2ahUKEwiX68ftuJqFAxVPB7kGHWULDEcQ2-cCegQIABAA&oq=Templo+do+Pavilh%C3%A3o+Dourado%2C+em+Kyoto%2C+Jap%C3%A3o&gs_lp=EgNpbWciLVRlbXBsbyBkbyBQYXZpbGjDo28gRG91cmFkbywgZW0gS3lvdG8sIEphcMOjb0iUCVCPB1iPB3AAeACQAQCYAW2gAdgBqgEDMC4yuAEDyAEA-AEBigILZ3dzLXdpei1pbWeIBgE&sclient=img&ei=ZDYHZpepCs-O5OUP5ZawuAQ&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-outline-primary btn-sm" target="_blank">Veja mais fotos</a>
+          <br>
+          <a href="https://www.google.com/maps/place/Templo+do+Pavilh%C3%A3o+Dourado/@35.03937,135.7266682,17z/data=!3m1!4b1!4m6!3m5!1s0x6001a820c0eb46bd:0xee4272b1c22645f!8m2!3d35.03937!4d135.7292431!16zL20vMDFrbjR3?entry=ttu" class="btn btn-outline-primary btn-sm mt-2" target="_blank">Mapa</a>
         </div>
       </div>
      </div>
@@ -397,7 +444,9 @@
         <p class="text-center"><small>Estados Unidos</small></p>
 
         <div class="card-header btn">
-          <a href="https://www.google.com/search?q=Nova+York%2C+Estados+Unidos&tbm=isch&ved=2ahUKEwj24_f8uJqFAxWfH7kGHcLuAbwQ2-cCegQIABAA&oq=Nova+York%2C+Estados+Unidos&gs_lp=EgNpbWciGU5vdmEgWW9yaywgRXN0YWRvcyBVbmlkb3NI2AhQwgZYwgZwAHgAkAEAmAFkoAFkqgEDMC4xuAEDyAEA-AEBigILZ3dzLXdpei1pbWeIBgE&sclient=img&ei=hDYHZvaRGZ-_5OUPwt2H4As&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-primary" target="_blank">Veja mais fotos</a>
+          <a href="https://www.google.com/search?q=Nova+York%2C+Estados+Unidos&tbm=isch&ved=2ahUKEwj24_f8uJqFAxWfH7kGHcLuAbwQ2-cCegQIABAA&oq=Nova+York%2C+Estados+Unidos&gs_lp=EgNpbWciGU5vdmEgWW9yaywgRXN0YWRvcyBVbmlkb3NI2AhQwgZYwgZwAHgAkAEAmAFkoAFkqgEDMC4xuAEDyAEA-AEBigILZ3dzLXdpei1pbWeIBgE&sclient=img&ei=hDYHZvaRGZ-_5OUPwt2H4As&bih=607&biw=1366&prmd=ivmnsbtz" class="btn btn-outline-primary btn-sm" target="_blank">Veja mais fotos</a>
+          <br>
+          <a href="https://www.google.com/maps?sca_esv=d1d3b98f0629dca4&output=search&q=Nova+York+Estados+Unidos&source=lnms&entry=mc&ved=1t:200715&ictx=111" class="btn btn-outline-primary btn-sm mt-2" target="_blank">Mapa</a>
         </div>
       </div>
      </div>
@@ -410,6 +459,7 @@
 
     <!-- História -->
     <h4 id="história" class="text-primary">História</h4>
+    <p class="lead mb-5">Conheça um pouco da história do seu destino.</p>
 
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut praesentium dolor, deleniti nesciunt illum delectus magni tenetur esse doloribus asperiores ab minus quas quo molestiae non earum quaerat accusamus excepturi?</p>
 
@@ -428,29 +478,44 @@
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut praesentium dolor, deleniti nesciunt illum delectus magni tenetur esse doloribus asperiores ab minus quas quo molestiae non earum quaerat accusamus excepturi?</p>
 
 
-    <footer class="footer">
+    <footer>
+      <h4 class="mt-5 mb-1 text-primary">Créditos:</h4>
       <br>
-      <a href="https://www.cvc.com.br/destinos/paris-franca">CVC</a>
+
+    <div class="link_footer mb-5">
+      <a href="https://www.cvc.com.br/destinos/paris-franca" target="_blank">CVC</a>
       <br>
       <a href="https://dicasdonossobrasil.com.br/">Dicas do nosso Brasil</a>
       <br>
-      <a href="https://turismo.eurodicas.com.br/pontos-turisticos-de-berlim/">Eurodicas</a>
+      <a href="https://turismo.eurodicas.com.br/pontos-turisticos-de-berlim/" target="_blank">Eurodicas</a>
       <br>
-      <a href="https://www.flaticon.com/br/buscar?word=avi%C3%A3o">Flaticon</a>
+      <a href="https://www.flaticon.com/br/buscar?word=avi%C3%A3o" target="_blank">Flaticon</a>
       <br>
-      <a href="https://www.google.com/?&bih=607&biw=1366&prmd=imvnsbtz&hl=pt-BR">Google</a>
+      <a href="https://www.google.com/?&bih=607&biw=1366&prmd=imvnsbtz&hl=pt-BR" target="_blank">Google</a>
       <br>
-      <a href="https://www.hellotickets.com.br/franca/paris/dicas-para-visitar-a-torre-eiffel/sc-125-2319">Hellotickets</a>
+      <a href="https://www.hellotickets.com.br/franca/paris/dicas-para-visitar-a-torre-eiffel/sc-125-2319" target="_blank">Hellotickets</a>
       <br>
-      <a href="https://mundovastomundo.com.br/">Mundo Vasto Mundo</a>
+      <a href="https://mundovastomundo.com.br/" target="_blank">Mundo Vasto Mundo</a>
       <br>
-      <a href="https://optimaintercambio.com.br/blog/turismo/10-pontos-turisticos-japao">Optima</a>
+      <a href="https://optimaintercambio.com.br/blog/turismo/10-pontos-turisticos-japao" target="_blank">Optima</a>
       <br>
-      <a href="https://www.pariscityvision.com/pt/paris/lugares-marcantes-de-paris/torre-eiffel/historia-torre-eiffel">Paris City Vision</a>
+      <a href="https://www.pariscityvision.com/pt/paris/lugares-marcantes-de-paris/torre-eiffel/historia-torre-eiffel" target="_blank">Paris City Vision</a>
       <br>
-      <a href="https://ondeficaremsuaviagem.com/coreia-do-sul/onde-ficar-em-ilha-de-jeju-na-coreia-do-sul/">Viagens</a>
-      
+      <a href="https://ondeficaremsuaviagem.com/coreia-do-sul/onde-ficar-em-ilha-de-jeju-na-coreia-do-sul/" target="_blank">Viagens</a>
+    </div>
     </footer>
+
+
+    <!-- AUTORA -->
+    
+    <!-- text-muted deixa o texto opaco -->
+    <div class="text-center mt-5 mb-1 text-muted">
+      <p class="footer_p_copyright mb-1">Copyright &copy; | 2024 - by Luciene Lima
+      <a href="https://github.com/lucienelima8" target="_blank"><i class="fa-brands fa-github"></i></a>      
+      </p>
+
+      <p class="small"><a href="mailto:lucienedelima8@gmail.com">lucienedelima8@gmail.com</a></p>
+   </div>
 
     <!-- Incluindo o Bootstrap 5 via CDN (copiando os links)-->
     <!-- Bootstrap trabalha com um pouco de JS -->
