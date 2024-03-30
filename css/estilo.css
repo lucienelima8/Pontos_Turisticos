@@ -133,6 +133,22 @@ h5+p {
 
 }
 
+/*TABELA LOCAIS MAIS VISITADOS EM 202*/
+
+.tabela {
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+/*Link com a fonte da tabela*/
+caption {
+    margin-left: 1.2rem;
+
+}
+
+
+
 /*FOOTER*/
 .link_footer {
     margin-left: 3rem;
