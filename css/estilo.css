@@ -69,7 +69,7 @@ h3 {
 
 /*SLIDE*/
 
-/*Seção: Escolha seu destino / História / lead pra parágrafos destaque*/
+/*Seção: Escolha seu destino / História / Manual do Viajante lead pra parágrafos destaque*/
 h4, .lead {
     margin-left: 1rem;
 }
@@ -108,8 +108,8 @@ h5+p {
 /*HISTÓRIA*/
 
 /*Nome do local*/
-.história_local {
-    margin-left: 1rem;
+.história_local { /*substitui essa class por mx-3*/
+    /*margin-left: 1rem;*/
 }
 
 /*Contando um pouco da história*/
@@ -121,7 +121,7 @@ h5+p {
 
 }
 
-/*TABELA LOCAIS MAIS VISITADOS EM 202*/
+/*TABELA LOCAIS MAIS VISITADOS EM 2023*/
 
 .tabela {
     text-align: center;
@@ -135,10 +135,20 @@ caption {
 
 }
 
+/* MANUAL DO VIAJANTE */
+
+
+.título_chamada_p {
+    text-align: justify;
+ 
+
+}
+
 
 /*FOOTER*/
 .link_footer {
     margin-left: 3rem;
+
 
 }
 
