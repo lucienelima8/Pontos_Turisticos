@@ -137,10 +137,9 @@ caption {
 
 /* MANUAL DO VIAJANTE */
 
-
-.título_chamada_p {
-    text-align: justify;
- 
+/*Parágrafo do título*/
+.manual_p {
+    text-align: justify; 
 
 }
 
