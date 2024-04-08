@@ -769,9 +769,19 @@
 
   <h4 id="manual" class="text-primary">Manual do Viajante:</h4>
 
-  <p class="lead mb-5">Vacinas, regras, vistos e tudo mais que você precisa para fazer uma viagem segura.</p> 
+  <p class="lead mb-4">Vacinas, regras, vistos e tudo mais que você precisa para fazer uma viagem segura.</p> 
 
-  <img class="img-fluid rounded mx-auto d-block img-thumbnail col-12 col-md-6 col-xl-4 mb-5" src="imagens/traveling-items-arrangement-top-view.jpg" alt="imagem de um mapa sobre uma mesa; e sobre o mapa um avião pequeno, uma lupa, um binócolo, uma bússola">
+
+  <div class="div_botão_troca_img">
+
+  <p class="mx-3 text-secondary">Clique no botão abaixo para trocar a foto.</p>
+
+  <button onclick="mudar()" class="btn btn-outline-primary btn-sm" target="_blank">Trocar imagem</button>
+  </div>
+
+  <br>
+  
+  <img id="figura" class="img-fluid rounded mx-auto d-block img-thumbnail col-12 col-md-6 col-xl-4 mb-5" src="imagens/traveling-items-arrangement-top-view.jpg" alt="imagem de um mapa sobre uma mesa; e sobre o mapa um avião pequeno, uma lupa, um binócolo, uma bússola">
 
   <!--Companhias aéreas low cost: quais operam no Brasil?  -->
   <p class="mx-3"><strong>Companhias aéreas low cost: quais operam no Brasil?</strong></p>
@@ -862,6 +872,8 @@
       <br>
       <a href="https://www.pariscityvision.com/pt/paris/lugares-marcantes-de-paris/torre-eiffel/historia-torre-eiffel" target="_blank">Paris City Vision</a>
       <br>
+      <a href="https://www.youtube.com/@LuisTavaresCanal/videos" target="_blank">Prof. Luis Tavares</a>
+      <br>
       <a href="https://www.queroviajarmais.com/" target="_blank">Quero viajar mais</a>
       <br>
       <a href="https://ondeficaremsuaviagem.com/coreia-do-sul/onde-ficar-em-ilha-de-jeju-na-coreia-do-sul/" target="_blank">Viagens</a>
@@ -892,7 +904,9 @@
   <!-- Incluindo o Bootstrap 5 via CDN (copiando os links)-->
   <!-- Bootstrap trabalha com um pouco de JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
+  
+  <!-- Pra fazer a foto mudar da Seção Manual do Viajante -->
+  <script src="script.js"></script>
 </body>
 </html>
 

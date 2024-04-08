@@ -144,6 +144,13 @@ caption {
 }
 
 
+/*Div pra posicionar o botão troca de imagens e a instrução pra clicar no botão*/
+.div_botão_troca_img {
+    text-align: center;
+
+}
+
+
 /*FOOTER*/
 .link_footer {
     margin-left: 3rem;
